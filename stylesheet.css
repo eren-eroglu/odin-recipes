@@ -3,20 +3,25 @@
   color:rgb(13, 99, 133);
   text-align: center;
   text-shadow: 2px 20px 5px pink, 2px 40px 5px rgb(172, 21, 192);
+  padding: 0px;
+  color:rgb(190, 50, 50);
  }
  .lasagna {
    margin-top: 50px;
    margin-left: 50px;
  }
- .lasagna:hover {
+ img:hover {
    cursor: pointer;
    opacity: 0.5;
  }
-
+ img:active {
+   opacity: 0.2;
+ }
  
 
 img {
   border-radius: 100px;
+  transition: 0.2s;
 }
 
 body {
@@ -41,3 +46,4 @@ pre{
    object-fit: cover;
    margin-left: 180px;
 }
+
